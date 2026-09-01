@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disruptive Perspektiver — Postkort fra fremtiden</title>
+<meta name="description" content="Perspektivnotater om teknologi, makt og fremtidens økonomi, fra Disruptive Muligheter.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0e1a'/%3E%3Cpath d='M12 20h40v28H12z' fill='none' stroke='%237c8cff' stroke-width='3'/%3E%3Cpath d='M12 20l20 16 20-16' fill='none' stroke='%23ff8a5b' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="sky"></div>
+<div class="stars"></div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <span class="mark">✉️</span>
+      Disruptive Perspektiver
+    </a>
+    <nav class="langswitch" aria-label="Språkvalg">
+      <a href="./" class="active">NO</a>
+      <a href="en/">EN</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Postkort fra fremtiden</span>
+    <h1>Perspektivnotater om <span class="grad">teknologi, makt</span> og fremtidens økonomi</h1>
+    <p class="lead">En samlet oversikt over alle perspektivnotatene fra Disruptive Muligheter — dypdykk i AI, geopolitikk og de kreftene som former det som kommer.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</section>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="controls-inner">
+      <label class="search" for="search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input id="search" type="text" autocomplete="off">
+      </label>
+      <div class="tags" id="chips"></div>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="grid" id="notes-grid"></div>
+  <p class="empty" id="notes-empty"></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© <span id="year"></span> Disruptive Muligheter. Alle notater er skrevet på norsk.</span>
+    <a href="mailto:hei@postkortfrafremtiden.no">Kontakt oss</a>
+  </div>
+</footer>
+
+<script src="assets/notes.js"></script>
+<script src="assets/main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
