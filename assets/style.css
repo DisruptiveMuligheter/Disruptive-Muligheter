@@ -292,9 +292,8 @@ header.site .wrap {
   font-size: 0.86rem;
 }
 
-.hero p.credit em {
+.hero p.credit strong {
   color: var(--text-dim);
-  font-style: normal;
   font-weight: 600;
 }
 
