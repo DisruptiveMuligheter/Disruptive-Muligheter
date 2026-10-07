@@ -564,3 +564,26 @@ footer.site a:hover { color: var(--accent); }
   .hero { padding: 56px 0 36px; }
   .controls { top: auto; }
 }
+
+/* ---------- link to AI screener ---------- */
+
+.screener-link {
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-dim);
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  white-space: nowrap;
+}
+
+.screener-link:hover { color: var(--text); border-color: var(--accent); }
+
+@media (max-width: 560px) {
+  .screener-link { padding: 6px 10px; margin-right: 6px; }
+  .screener-link span { display: none; }
+}
